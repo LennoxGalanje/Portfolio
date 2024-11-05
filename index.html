@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ddc3ccf995.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer |  Front-end Developer</p>
+                <h1>Hi, l'm <span>Lennox</span> <br>Galanje From Zimbabwe</h1>
+
+            </div>
+        </div>
+    </div>
+   <!------about------->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="lennox">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a creative problem-solver, passionate about crafting digital 
+                experiences that captivate and inspire. As a UI/UX Designer and Frontend
+                Developer, I combine my artistic vision with technical expertise to deliver 
+                exceptional results. l leverage my skills in Figma, Adobe XD, and Adobe 
+                Photoshop to design visually stunning interfaces, and my proficiency in
+                HTML, CSS, JavaScript, and ReactJS enables me to bring these designs to life.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                       
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Aug - Jul 2024</span><br>Internship at Codsoft IT Services and consulting</li>
+                        <li><span>Jun - Jul 2024</span><br>Oracle Cloud Infrastructue Training with Oracle University</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                <li><span>2022 - Current</span><br>Btech Computer Science Engineering at Sandip University</li>
+                <li><span>Jun - Jul 2024</span><br>Oracle Cloud Infrastructue Training with Oracle University</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+  </div>
+ 
+<!------Services------->
+
+
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-uikit"></i>
+                <h2>UI/UX Design</h2>
+                <p>My craft focuses on designing visually engaging, user-centered experiences that seamlessly blend functionality with
+                aesthetics. Using a methodical approach that includes user research, wireframing, prototyping, and final design, I
+                ensure that every detail aligns with your brand's objectives while maximizing user engagement. By analyzing audience
+                needs and behaviors, I make informed design decisions that shape intuitive wireframes and prototypes, providing a clear
+                view of the user journey. The final UI design embodies your brand's unique identity and is fine-tuned through rigorous
+                testing to ensure optimal usability</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I specialize in creating websites that captivate users and meet strategic objectives. My craft
+                encompasses the entire process, from crafting custom, brand-aligned designs to implementing responsive layouts
+                that ensure flawless performance on any device. Prioritizing SEO best practices, I build with search visibility in mind,
+                enhancing the site's reach and impact. Post-launch, I provide maintenance and support to keep your website running
+                seamlessly. Together, we can establish a digital presence that stands out and drives sustainable growth.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h2>Mobile App Design</h2>
+                <p>Leveraging design expertise to create mobile apps that captivate and engage, I focus on delivering visually dynamic and
+                user-friendly experiences. From initial concept to high-fidelity prototypes, I prioritize a user-centered approach that
+                aligns with iOS and Android standards. Each app is thoughtfully crafted to provide seamless functionality and high
+                performance across devices, offering users a polished, reliable experience. Let's bring your app concept to life with a
+                design that resonates and stands out in the mobile landscape.</p>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<!------------Portfolio---------------->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work3.png">
+                <div class="layer">
+                    <h3>Money Map Website </h3>
+                    <p>Money Map is a website designed to help users track 
+                    their expenses and stay on  top of their finances.</p>
+                    <a href="https://www.behance.net/gallery/206845471/Financial-web-application"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/Cover.png">
+                <div class="layer">
+                <h3>Car Rental App</h3>
+                <p> Car Rental App is a mobile app designed to help users find and book car rentals in their area.</p>
+                <a href="https://www.behance.net/gallery/207871069/Car-rental-app-design"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/Cover Page.png">
+                <div class="layer">
+                <h3>Emotional Journal App</h3>
+                <p> Emotional Journal App is a mobile app designed to help users track and manage their emotions.</p>
+
+                <a href="https://www.behance.net/gallery/206721205/Emotional-Journal"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.behance.net/lennoxgalanje" class="btn">See More</a>
+
+    </div>
+
+</div>
+
+<!----Contact---->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>takundagalanje@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://github.com/LennoxGalanje?tab=overview&from=2023-12-01&to=2023-12-31"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/LGalanje"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/lennox-galanje/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BYFbo74TrSRqfEzZThN8Sig%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+                <a href="images/My Resume.pdf" download="" class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2024 Lennox Galanje. All rights reserved.</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of  tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwvPuey59PfB8JZMgLVrXRkmaJeRXYcYTth5VSPAc6p7p3sMXwkmfWgzvPVK_KHmPPF/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
